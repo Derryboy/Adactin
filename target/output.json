@@ -1,0 +1,287 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login using username and password",
+        "description": "",
+        "id": "login-into-adactin-hotel-application;login-using-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9163199500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launches the adactin url",
+            "match": {
+              "location": "Login_StepDefinition.user_launches_the_adactin_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521738900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "Login_StepDefinition.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2310968300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "Login_StepDefinition.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to Search Hotel page",
+            "match": {
+              "location": "Login_StepDefinition.user_navigates_to_Search_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into Adactin Hotel Application",
+    "description": "",
+    "id": "login-into-adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/CucumberAdactin/src/test/resources/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Search Hotel based on user needs",
+        "description": "",
+        "id": "search-hotel;search-hotel-based-on-user-needs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1560006300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User enters all the mandatory fields",
+            "match": {
+              "location": "SearchHotel_StepDefinition.user_enters_all_the_mandatory_fields()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 555230600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters other fields if required",
+            "match": {
+              "location": "SearchHotel_StepDefinition.user_enters_other_fields_if_required()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696424800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks the search button",
+            "match": {
+              "location": "SearchHotel_StepDefinition.user_clicks_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to Select Hotel page",
+            "match": {
+              "location": "SearchHotel_StepDefinition.user_navigates_to_Select_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Hotel",
+    "description": "",
+    "id": "search-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/CucumberAdactin/src/test/resources/SearchHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User visibly verifies and selects a hotel",
+        "description": "",
+        "id": "select-hotel;user-visibly-verifies-and-selects-a-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101456300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User clicks select button",
+            "match": {
+              "location": "SelectHotel_StepDefinition.user_clicks_select_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 541517100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks continue button",
+            "match": {
+              "location": "SelectHotel_StepDefinition.user_clicks_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Book A Hotel page",
+            "match": {
+              "location": "SelectHotel_StepDefinition.user_navigates_to_Book_A_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Select Hotel",
+    "description": "",
+    "id": "select-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/CucumberAdactin/src/test/resources/SelectHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Book Hotel using users personal details",
+        "description": "",
+        "id": "book-hotel;book-hotel-using-users-personal-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1307172000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User enters all the fields marked with asterix",
+            "match": {
+              "location": "BookHotel_StepDefinition.user_enters_all_the_fields_marked_with_asterix()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83904700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks book now button",
+            "match": {
+              "location": "BookHotel_StepDefinition.user_clicks_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Booking Confirmation page",
+            "match": {
+              "location": "BookHotel_StepDefinition.user_navigates_to_Booking_Confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book Hotel",
+    "description": "",
+    "id": "book-hotel",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/CucumberAdactin/src/test/resources/TBookHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User visibly verifies if all the details are correct",
+        "description": "",
+        "id": "booking-confirmation;user-visibly-verifies-if-all-the-details-are-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6001567500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User clicks logout button",
+            "match": {
+              "location": "BookingConfirmation_StepDefinition.user_clicks_logout_button()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Booking Confirmation",
+    "description": "",
+    "id": "booking-confirmation",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/eclipse-workspace/CucumberAdactin/src/test/resources/TBookingConfirmation.feature",
+    "tags": []
+  }
+]
